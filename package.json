@@ -1,0 +1,19 @@
+{
+  "name": "alexjones3000",
+  "version": "1.0.0",
+  "description": "Alex Jones twitter bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NewRasputin/alexjones3000.git"
+  },
+  "author": "Ras <contact@rasputin.io>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NewRasputin/alexjones3000/issues"
+  },
+  "homepage": "https://github.com/NewRasputin/alexjones3000#readme"
+}
