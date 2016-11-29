@@ -13,7 +13,7 @@ function word () {
 	return words[Math.floor(Math.random()*words.length)]
 }
 
-new CronJob('00 00 */4 * * *', function() {
+new CronJob('00 00 8,12,16,20 * * *', function() {
 	T.post('statuses/update', { status: fakeJones.start(word()).end(17).process() }, function(err, data, response) {
 		console.log(data)
 	})
