@@ -1,6 +1,6 @@
 var Twit = require('twit')
 
-vart T = new Twit({
+var T = new Twit({
   consumer_key: '...',
   consumer_secret: '...',
   access_token: '...',
